@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'W95font';
+    src: local('W95font'), url("/fonts/w95font.woff") format("woff");
+}
+
+@tailwind utilities;
+
+
+@layer components {
+    .subtext {
+        @apply text-sm italic text-[#000000]
+    }
+}
+
+:root { 
+    --ctp-macchiato-text: #000000;
+    
+    --ctp-macchiato-subtext0: #a5adcb;
+    
+    --ctp-macchiato-base: #c0c0c0;
+}
+
+a, p, h1, h2, li, ul {
+    color: var(--ctp-macchiato-text);
+    font-family: W95FA, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+li:not(:last-child) {
+    padding-bottom: 8px;
+}
+
+body {
+    background-color: var(--ctp-macchiato-base);
+    background-size: cover;
+    background-attachment: fixed;  
+}
