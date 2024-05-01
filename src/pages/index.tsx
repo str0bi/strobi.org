@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main className=" px-12 pt-12 font-W95font">
         <h1 className="text-5xl flex justify-center"><strong>🍓 strobi</strong></h1>
-        <p className="subtext flex justify-center">Current Favorite Song:  <Link href="https://open.spotify.com/playlist/5AHdgtb9mzsKdIr9vE0j3G?si=814cc2120f6e4946">Fred again.., Brian Eno - Secret</Link></p>
+        <p className="subtext flex justify-center">{"Current Favorite Song: "}<Link href="https://open.spotify.com/playlist/5AHdgtb9mzsKdIr9vE0j3G?si=814cc2120f6e4946">Fred again.., Brian Eno - Secret</Link></p>
 
         <h2 className="text-3xl mt-12"><strong>✨ Latest LLP Releases</strong></h2>
         <p className="text-2xl"><strong><Link href="https://open.spotify.com/album/6and6SQJTiZdiQlxMAi0Ro?si=Z1FabwUpS-WDJASn9M7p0Q">dotLua - Doors (Single)</Link></strong></p>
