@@ -11,7 +11,7 @@ export default function systools() {
         <title>🛜</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
-      <main className="pl-8 pt-8">
+      <main className="px-12 pt-12">
         <h1 className="text-5xl"><strong>🛜 Network, Privacy & Security, System Tools, Essential Software</strong></h1>
         <p className="subtext"><Link href="/programs">Back</Link></p>
 
@@ -28,7 +28,7 @@ export default function systools() {
         <p className="subtext">Check network traffic more meticulously, this one also for MacOS.</p>
 
         <p className="text-2xl"><strong><br /><Link href="https://www.diskanalyzer.com/">WizTree</Link></strong></p>
-        <p className="subtext">{"46x faster than WinDirStat, it's next-gen stuff and works wonders to free up storage."}</p>
+        <p className="subtext">46x faster than WinDirStat, it's next-gen stuff and works wonders to free up storage.</p>
 
         <p className="text-2xl"><strong><br /><Link href="https://motrix.app/">Motrix</Link></strong></p>
         <p className="subtext">All in one torrent/web downloader. Looks cute and bypasses speed limits.</p>
@@ -37,7 +37,7 @@ export default function systools() {
         <p className="subtext">Control your PC or laptop from another computer, no matter where you are.</p>
 
         <p className="text-2xl"><strong><br /><Link href="https://www.malwarebytes.com/">Malwarebytes</Link></strong></p>
-        <p className="subtext">The only {"good</a> antivirus left and it's free for manual scan."}</p>
+        <p className="subtext">The only good antivirus left and it's free for manual scan.</p>
 
         <p className="text-2xl"><strong><br /><Link href="https://www.libreoffice.org/download/download-libreoffice/">LibreOffice</Link></strong></p>
         <p className="subtext">All-In-One Suite for all the Microsoft stuff like Word and Excel and all that, but free and fast.</p>

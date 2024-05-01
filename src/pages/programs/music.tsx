@@ -11,7 +11,7 @@ export default function music() {
         <title>🎛️</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
-      <main className="pl-8 pt-8">
+      <main className="px-12 pt-12">
         <h1 className="text-5xl"><strong>🎛️ Music & Sound Design</strong></h1>
         <p className="subtext"><Link href="/programs">Back</Link></p>
 
