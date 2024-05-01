@@ -16,7 +16,7 @@ export default function artists() {
         <p className="subtext"><Link href="/">Back to hub</Link></p>
 
         <p className="text-2xl"><strong><br />Fred again..</strong></p>
-        <p className="subtext">Favorite Songs: All of "Secret Life", Hannah (the sun)</p>
+        <p className="subtext">{"Favorite Songs: All of 'Secret Life', Hannah (the sun)"}</p>
 
         <p className="text-2xl"><strong><br />Sigur Rós</strong></p>
         <p className="subtext">Favorite Songs: Skel, Glóð</p>
