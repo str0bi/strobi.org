@@ -16,7 +16,7 @@ export default function misc() {
         <p className="subtext"><Link href="/programs">Back</Link></p>~
 
         <p className="text-2xl"><strong><br /><Link href="https://www.equaldex.com/">Equaldex</Link></strong></p>
-        <p className="subtext">Stay informed on queer rights issues around the world and check what's happening in certain countries.</p>
+        <p className="subtext">Stay informed on queer rights issues around the world and check news in most countries.</p>
 
         <p className="text-2xl"><strong><br /><Link href="https://www.phonesized.com/">Phonesized</Link></strong></p>
         <p className="subtext">Compare phone sizes to make a more informed purchase decision.</p>

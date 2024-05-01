@@ -16,7 +16,7 @@ export default function gamedesigns() {
         <p className="subtext"><Link href="/programs">Back</Link></p>
 
         <p className="text-2xl"><strong><br /><Link href="https://modrinth.com/app">Modrinth</Link></strong></p>
-        <p className="subtext">Incredible Minecraft launcher. Amazing instance system, ability to download mods, modpacks, shaders, textures, all in the launcher itself, it's a keeper.</p>
+        <p className="subtext">Incredible Minecraft launcher. Amazing instance system, ability to download mods, modpacks, shaders, textures, all in the launcher itself, it is a keeper!</p>
         
         <p className="text-2xl"><strong><br /><Link href="https://openmw.org/">OpenMW</Link></strong></p>
         <p className="subtext">Open source extension for Morrowind that expands and improves the game in a ton of ways.</p>
@@ -25,7 +25,7 @@ export default function gamedesigns() {
         <p className="subtext">Next-gen game engine! Cruelty Squad was made with it. :3</p>
 
         <p className="text-2xl"><strong><br /><Link href="https://wickedengine.net/">Wicked Engine</Link></strong></p>
-        <p className="subtext">Also check this engine out, it's definitely something. Not hard to use and looks really nice.</p>
+        <p className="subtext">Also check this engine out, it is definitely something. Not hard to use and looks really nice.</p>
       </main>
     </>
   )
