@@ -12,16 +12,17 @@ export default function misc() {
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px]">
-        <h1 className="text-5xl"><strong>🌎 Miscellaneous</strong></h1>
-        <p className="subtext"><Link href="/programs">Back</Link></p>~
 
-        <p className="text-2xl"><strong><br /><Link href="https://www.equaldex.com/">Equaldex</Link></strong></p>
+        <p className="pb-5 text-[15px]"><Link className="no-underline" href="/programs">{"⬅ Back to Programs"}</Link></p>
+        <h1 className="text-5xl"><strong>🌎 Miscellaneous</strong></h1>
+
+        <p className="text-2xl"><strong><Link href="https://www.equaldex.com/">Equaldex</Link></strong></p>
         <p className="subtext">Stay informed on queer rights issues around the world and check news in most countries.</p>
 
-        <p className="text-2xl"><strong><br /><Link href="https://www.phonesized.com/">Phonesized</Link></strong></p>
+        <p className="text-2xl"><strong><Link href="https://www.phonesized.com/">Phonesized</Link></strong></p>
         <p className="subtext">Compare phone sizes to make a more informed purchase decision.</p>
 
-        <p className="text-2xl"><strong><br /><Link href="https://www.carsized.com/">Carsized</Link></strong></p>
+        <p className="text-2xl"><strong><Link href="https://www.carsized.com/">Carsized</Link></strong></p>
         <p className="subtext">Compare car sizes to make a more informed purchase decision.</p>
       </main>
     </>
