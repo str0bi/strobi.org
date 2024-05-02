@@ -10,7 +10,7 @@ export default function Home() {
         <title>strobi</title>
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <main className=" px-12 pt-12 font-W95font">
+      <main className=" px-12 pt-[80px] font-W95font">
         <h1 className="text-5xl flex justify-center"><strong>🍓 strobi</strong></h1>
         <p className="subtext flex justify-center gap-1">{"Current Favorite Song: "}<Link href="https://open.spotify.com/playlist/5AHdgtb9mzsKdIr9vE0j3G?si=814cc2120f6e4946">Fred again.., Brian Eno - Secret</Link></p>
 

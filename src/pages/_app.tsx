@@ -6,6 +6,11 @@ import "~/styles/globals.css";
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <>
+      <div className=" w-full">
+        <p className="p-2 bg-[#02007F] flex justify-between fixed w-full">
+            <span className=" text-white">Strobi</span> <img className=" h-6" src="/x.png"></img>
+        </p>
+      </div>
       <Component {...pageProps} />
       <div>
         <p className="subtext pl-8 mb-8">

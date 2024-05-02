@@ -11,7 +11,7 @@ export default function systools() {
         <title>🛜</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
-      <main className="px-12 pt-12">
+      <main className="px-12 pt-[80px]">
         <h1 className="text-5xl"><strong>🛜 Network, Privacy & Security, System Tools, Essential Software</strong></h1>
         <p className="subtext"><Link href="/programs">Back</Link></p>
 
