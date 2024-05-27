@@ -96,6 +96,14 @@ export default function acoustic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="http://handsometours.com/wp-content/uploads/2015/12/GodSpeedYouBlackEmperor_1.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Godspeed You! Black Emperor"}</strong></p>
+            <p className="subtext">{"Entire Discography • Post-Rock"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.baltimoresoundstage.com/wp-content/uploads/2021/12/247105774_2316195528523158_2865416146761258270_n.jpeg"></img>
           <div>
             <p className="text-2xl"><strong>{"Loathe"}</strong></p>

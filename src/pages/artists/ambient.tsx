@@ -24,14 +24,6 @@ export default function ambient() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://www.artribune.com/wp-content/uploads/2023/07/Duo-LEYA.-Photo-Jane-Chardiet-2.jpg"></img>
-          <div>
-            <p className="text-2xl"><strong>{"LEYA"}</strong></p>
-            <p className="subtext">{"Entire Discography • Adjacent to Industrial, Orchestral, Experimental"}</p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://f4.bcbits.com/img/0033381238_20.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Burial"}</strong></p>
@@ -52,6 +44,14 @@ export default function ambient() {
           <div>
             <p className="text-2xl"><strong>{"Loathe"}</strong></p>
             <p className="subtext">{"The Things They Believe = Ambient Adjacent to Orchestral & sprinkles of Jazz"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://img.discogs.com/t9UNGVAL6I9E-ysDvD-p3_eSJUs=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-13352709-1552609667-1100.jpeg.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"How to Disappear Completely"}</strong></p>
+            <p className="subtext">{"Entire Discography • Ambient"}</p>
           </div>
         </div>
 
