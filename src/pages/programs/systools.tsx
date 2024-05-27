@@ -11,12 +11,12 @@ export default function systools() {
         <title>🛜</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
-      <main className="px-12 pt-[80px]">
+      <main className="px-12 pt-[80px] cursor-default">
 
         <p className="pb-5 text-[15px]"><Link className="no-underline" href="/programs">{"⬅ Back to Programs"}</Link></p>
         <h1 className="text-5xl"><strong>🛜 Network, Privacy & Security, System Tools, Essential Software</strong></h1>
 
-        <p className="text-2xl"><strong><Link href="https://librewolf.net/">LibreWolf</Link></strong></p>
+        <p className="text-2xl pt-8"><strong><Link href="https://librewolf.net/">LibreWolf</Link></strong></p>
         <p className="subtext">A fork of Firefox with a bunch of privacy enhancements and much prettier without losing features from the foxy.</p>
 
         <p className="text-2xl"><strong><Link href="https://www.notion.so/">Notion</Link></strong></p>

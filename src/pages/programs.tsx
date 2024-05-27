@@ -11,7 +11,7 @@ export default function programs() {
         <title>💻</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
-      <main className="px-12 pt-[80px]">
+      <main className="px-12 pt-[80px] cursor-default">
 
       <p className="pb-5 text-[15px]"><Link className="no-underline" href="/">{"⬅ Back to Home"}</Link></p>
         <h1 className="text-5xl"><strong>💻 Neat Programs I Use</strong></h1>

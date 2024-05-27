@@ -18,9 +18,9 @@ export default function programs() {
 
         <p className="text-2xl pt-8"><strong>✨ <Link href="/artists/ambient">Ambient</Link></strong></p>
         <p className="text-2xl"><strong>🚅 <Link href="/artists/garage">Future Garage</Link></strong></p>
-        <p className="text-2xl"><strong>🎚️ <Link href="/artists/electronic">Electronic</Link></strong></p>
+        <p className="text-2xl"><strong>🎚️ <Link href="/artists/edm">EDM</Link></strong></p>
         <p className="text-2xl"><strong>🎙️ <Link href="/artists/pop">Pop</Link></strong></p>
-        <p className="text-2xl"><strong>🎤 <Link href="/artists/rap">Rap & Hip Hop</Link></strong></p>
+        <p className="text-2xl"><strong>🎤 <Link href="/artists/rap">Rap</Link></strong></p>
         <p className="text-2xl"><strong>🎸 <Link href="/artists/acoustic">Acoustic</Link></strong></p>
         <p className="text-2xl"><strong>🎛️ <Link href="/artists/experimental">Experimental</Link></strong></p>  
       </main>

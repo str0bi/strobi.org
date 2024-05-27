@@ -11,12 +11,12 @@ export default function music() {
         <title>🎛️</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
-      <main className="px-12 pt-[80px]">
+      <main className="px-12 pt-[80px] cursor-default">
 
         <p className="pb-5 text-[15px]"><Link className="no-underline" href="/programs">{"⬅ Back to Programs"}</Link></p>
         <h1 className="text-5xl"><strong>🎛️ Music & Sound Design</strong></h1>
 
-        <p className="text-2xl"><strong><Link href="https://www.bitwig.com/">Bitwig Studio</Link></strong></p>
+        <p className="text-2xl pt-8"><strong><Link href="https://www.bitwig.com/">Bitwig Studio</Link></strong></p>
         <p className="subtext">Better and more affortable DAW. Replaces Ableton easily, made by former Ableton employees and private.</p>
 
         <p className="text-2xl"><strong><Link href="https://tytel.org/helm/">Helm</Link></strong></p>

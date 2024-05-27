@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 
-export default function gamedesigns() {
+export default function gamedesign() {
 
   return (
     <>
@@ -11,12 +11,12 @@ export default function gamedesigns() {
         <title>🎲</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
-      <main className="px-12 pt-[80px]">
+      <main className="px-12 pt-[80px] cursor-default">
 
        <p className="pb-5 text-[15px]"><Link className="no-underline" href="/programs">{"⬅ Back to Programs"}</Link></p>
         <h1 className="text-5xl"><strong>🎲 Game Design & Modding</strong></h1>
 
-        <p className="text-2xl"><strong><Link href="https://modrinth.com/app">Modrinth</Link></strong></p>
+        <p className="text-2xl pt-8"><strong><Link href="https://modrinth.com/app">Modrinth</Link></strong></p>
         <p className="subtext">Incredible Minecraft launcher. Amazing instance system, ability to download mods, modpacks, shaders, textures, all in the launcher itself, it is a keeper!</p>
         
         <p className="text-2xl"><strong><Link href="https://openmw.org/">OpenMW</Link></strong></p>
