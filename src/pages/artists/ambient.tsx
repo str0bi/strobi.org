@@ -16,7 +16,7 @@ export default function ambient() {
         <h1 className="text-5xl pb-5"><strong>✨ Ambient</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://thissongissick.com/wp-content/uploads/2023/01/fred-again-e1670593119997-750x417.jpeg"></img>
+          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://thissongissick.com/wp-content/uploads/2023/02/fred_again_orftv_website_image_dnde_standard-750x421.jpeg"></img>
           <div>
             <p className="text-2xl"><strong>{"Fred again.."}</strong></p>
             <p className="subtext">{"Secret Life = Ambient"}</p>

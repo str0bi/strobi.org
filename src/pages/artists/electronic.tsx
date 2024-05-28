@@ -16,7 +16,7 @@ export default function electronic() {
         <h1 className="text-5xl pb-5"><strong>🎚️ Electronic</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://thissongissick.com/wp-content/uploads/2023/01/fred-again-e1670593119997-750x417.jpeg"></img>
+          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://thissongissick.com/wp-content/uploads/2023/02/fred_again_orftv_website_image_dnde_standard-750x421.jpeg"></img>
           <div>
             <p className="text-2xl"><strong>{"Fred again.."}</strong></p>
             <p className="subtext">{"Entire Discography (- Secret Life) • Stutter House"}</p>
@@ -36,6 +36,14 @@ export default function electronic() {
           <div>
             <p className="text-2xl"><strong>{"Stumbleine"}</strong></p>
             <p className="subtext">{"Entire Discography • Electronica, Chillstep, Ambient"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://lastfm.freetls.fastly.net/i/u/ar0/46d042a3150661d131602ad6c7ccf550.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Owsey"}</strong></p>
+            <p className="subtext">{"Entire Discography • Electronica, Chillstep Adjacent to Orchestral"}</p>
           </div>
         </div>
 
@@ -67,7 +75,7 @@ export default function electronic() {
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.udiscovermusic.com/wp-content/uploads/2020/07/James-Blake-Press-Shot-1536x1536.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"James Blake"}</strong></p>
-            <p className="subtext">{"Entire Discography • Dubstep, EDM Adjacent to RnB & Soul"}</p>
+            <p className="subtext">{"Entire Discography • Dubstep, EDM Adjacent to R&B & Soul"}</p>
           </div>
         </div>
 
