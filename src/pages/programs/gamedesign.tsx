@@ -8,7 +8,7 @@ export default function gamedesign() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🎲</title>
+        <title>Game Design & Modding</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">

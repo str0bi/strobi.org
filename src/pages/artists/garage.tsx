@@ -8,7 +8,7 @@ export default function garage() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🎤</title>
+        <title>Future Garage</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
@@ -16,7 +16,7 @@ export default function garage() {
         <h1 className="text-5xl pb-5"><strong>🚅 Future Garage</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://thissongissick.com/wp-content/uploads/2023/02/fred_again_orftv_website_image_dnde_standard-750x421.jpeg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://thissongissick.com/wp-content/uploads/2023/02/fred_again_orftv_website_image_dnde_standard-750x421.jpeg"></img>
           <div>
             <p className="text-2xl"><strong>{"Fred again.."}</strong></p>
             <p className="subtext">{"Actual Life 1-3 (some songs)"}</p>
@@ -24,7 +24,7 @@ export default function garage() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://images.genius.com/a9405814f4742369b97206bcf3663ad6.512x512x1.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://images.genius.com/a9405814f4742369b97206bcf3663ad6.512x512x1.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Kazukii"}</strong></p>
             <p className="subtext">{"Entire Discography"}</p>

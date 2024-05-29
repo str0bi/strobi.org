@@ -8,7 +8,7 @@ export default function electronic() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🎤</title>
+        <title>Electronic</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
@@ -16,7 +16,7 @@ export default function electronic() {
         <h1 className="text-5xl pb-5"><strong>🎚️ Electronic</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://thissongissick.com/wp-content/uploads/2023/02/fred_again_orftv_website_image_dnde_standard-750x421.jpeg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://thissongissick.com/wp-content/uploads/2023/02/fred_again_orftv_website_image_dnde_standard-750x421.jpeg"></img>
           <div>
             <p className="text-2xl"><strong>{"Fred again.."}</strong></p>
             <p className="subtext">{"Entire Discography (- Secret Life) • Stutter House"}</p>
@@ -48,7 +48,7 @@ export default function electronic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://i0.wp.com/theelectrichawk.com/wp-content/uploads/2020/10/quiet-bison-high-like-this-electric-hawk.jpg?resize=1000%2C1000&ssl=1"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://i0.wp.com/theelectrichawk.com/wp-content/uploads/2020/10/quiet-bison-high-like-this-electric-hawk.jpg?resize=1000%2C1000&ssl=1"></img>
           <div>
             <p className="text-2xl"><strong>{"QUIET BISON"}</strong></p>
             <p className="subtext">{"Entire Discography • Granular Synthesis, EDM"}</p>
@@ -56,7 +56,7 @@ export default function electronic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://edm.com/.image/t_share/MTYyODExMjA1MTQyOTgwNDQ5/flume-fb.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://edm.com/.image/t_share/MTYyODExMjA1MTQyOTgwNDQ5/flume-fb.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Flume"}</strong></p>
             <p className="subtext">{"Entire Discography •  Granular Synthesis, EDM"}</p>
@@ -104,6 +104,14 @@ export default function electronic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.bekendeartiestboeken.nl/wp-content/uploads/2023/03/Gladde-paling-boeken.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"gladde paling"}</strong></p>
+            <p className="subtext">{"Entire Discography • Dubstep, Gabber, Hardstyle (In Dutch)"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://themusicessentials.com/wp-content/uploads/2021/09/SLUSHII-ALL-I-NEED-e1632362323891.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Slushii"}</strong></p>
@@ -132,6 +140,14 @@ export default function electronic() {
           <div>
             <p className="text-2xl"><strong>{"San Holo"}</strong></p>
             <p className="subtext">{"Entire Discography • EDM Adjacent to Indie Pop"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://e.snmc.io/i/1200/s/d678286d44505a22d74a644f1843115b/10486022"></img>
+          <div>
+            <p className="text-2xl"><strong>{"gugusar"}</strong></p>
+            <p className="subtext">{"Entire Discography • Experimental EDM (In English & Icelandic)"}</p>
           </div>
         </div>
 

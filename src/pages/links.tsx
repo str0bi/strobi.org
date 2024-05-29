@@ -8,13 +8,13 @@ export default function links() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🌐</title>
+        <title>My Links</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
 
         <p className="pb-5 text-[15px]"><Link className="no-underline" href="/">{"⬅ Back to Home"}</Link></p>
-        <h1 className="text-5xl"><strong>🌐 Social Media and Other Links</strong></h1>
+        <h1 className="text-5xl"><strong>🌐 My Links</strong></h1>
 
         <p className="text-2xl pt-8"><strong>🦋 <Link href="https://bsky.app/profile/sofiejons.bsky.social">Bluesky</Link></strong></p>
 

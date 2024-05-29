@@ -8,7 +8,7 @@ export default function acoustic() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🎤</title>
+        <title>Acoustic</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
@@ -16,7 +16,7 @@ export default function acoustic() {
         <h1 className="text-5xl pb-5"><strong>🎸 Acoustic</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://mixmag.net/assets/uploads/images/_fullX2/Mount-Kimbie-Web-Layout2.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://mixmag.net/assets/uploads/images/_fullX2/Mount-Kimbie-Web-Layout2.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Mount Kimbie"}</strong></p>
             <p className="subtext">{"The Sunset Violent, Love What Survives • Adjacent to Experimental"}</p>
@@ -24,7 +24,7 @@ export default function acoustic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="http://tanakamusic.com/wp-content/uploads/2011/09/sigur-ros.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="http://tanakamusic.com/wp-content/uploads/2011/09/sigur-ros.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Sigur Rós"}</strong></p>
             <p className="subtext">{"Entire Discography • Icelandic Post-Rock, Adjacent to Orchestral"}</p>
@@ -32,7 +32,7 @@ export default function acoustic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://revista.cifras.com.br/wp-content/uploads/2013/07/6921.8941.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://revista.cifras.com.br/wp-content/uploads/2013/07/6921.8941.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Phoenix"}</strong></p>
             <p className="subtext">{"Entire Discography • Indie Rock"}</p>
@@ -78,6 +78,14 @@ export default function acoustic() {
             <p className="subtext">{"Entire Discography • Indie Folk"}</p>
           </div>
         </div>
+        
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://tse3.mm.bing.net/th?id=OIP.pQONVf7RryaNrwcwYsyvRQAAAA&pid=Api"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Ichiko Aoba"}</strong></p>
+            <p className="subtext">{"Entire Discography • Folk (In Japanese)"}</p>
+          </div>
+        </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://f4.bcbits.com/img/0025041655_21.jpg"></img>
@@ -88,10 +96,34 @@ export default function acoustic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://varenergi.no/wp-content/uploads/2021/08/Arctic-talent-Emil-Karlsen-foto-Orjan-Marakatt-Bertelsen-1024x683.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Emil Kárlsen"}</strong></p>
+            <p className="subtext">{"Entire Discography • Indie (In Northern Sámi)"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://i.scdn.co/image/ab6761610000e5eb31efbfb0179b92276d3f9fc5"></img>
           <div>
             <p className="text-2xl"><strong>{"Superheaven"}</strong></p>
             <p className="subtext">{"Entire Discography • Grunge, Emo"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://akamai.sscdn.co/uploadfile/letras/fotos/c/9/b/0/c9b0d8922f3c90c612238175ae2c19a7.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Não ao Futebol Moderno"}</strong></p>
+            <p className="subtext">{"Entire Discography • Shoegaze, Emo (In Br. Portuguese)"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://s2.glbimg.com/gAl5BsLHr_eKgCYkdGtWcvlbfCU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/X/3/z7P4r6SYqhCVHC9zo9NA/jovem-dionisio.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Jovem Dionisio"}</strong></p>
+            <p className="subtext">{"Entire Discography • Indie Pop, Bedroom Pop (In Br. Portuguese)"}</p>
           </div>
         </div>
 

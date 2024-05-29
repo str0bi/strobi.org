@@ -8,7 +8,7 @@ export default function programs() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>💻</title>
+        <title>Neat Programs I Use</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
@@ -18,7 +18,7 @@ export default function programs() {
 
         <p className="text-2xl pt-8"><strong>🎛️ <Link href="/programs/music">Music & Sound Design</Link></strong></p>
         <p className="text-2xl"><strong>🎨 <Link href="/programs/design">Art & Graphic Design</Link></strong></p>
-        <p className="text-2xl"><strong>🛜 <Link href="/programs/systools">Network, Privacy & Security, System Tools, Essential Software</Link></strong></p>
+        <p className="text-2xl"><strong>🛜 <Link href="/programs/systools">System Tools & Essential Software</Link></strong></p>
         <p className="text-2xl"><strong>🎲 <Link href="/programs/gamedesign">Game Design & Modding</Link></strong></p>
         <p className="text-2xl"><strong>🌎 <Link href="/programs/misc">Miscellaneous</Link></strong></p>  
       </main>

@@ -8,7 +8,7 @@ export default function rap() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🎤</title>
+        <title>Rap & Hip Hop</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
@@ -16,7 +16,15 @@ export default function rap() {
         <h1 className="text-5xl pb-5"><strong>🎤 Rap & Hip Hop</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://iv1.lisimg.com/image/26905549/740full-070-shake.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.oulunylioppilaslehti.fi/wp-content/uploads/2019/08/Pyhimys4167bByTero_Ahonen-1.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Pyhimys"}</strong></p>
+            <p className="subtext">{"Entire Discography (In Finnish)"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://iv1.lisimg.com/image/26905549/740full-070-shake.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"070 Shake"}</strong></p>
             <p className="subtext">{"Entire Discography"}</p>
@@ -32,6 +40,14 @@ export default function rap() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://eurovisionaryvoice.com/wp-content/uploads/2023/12/Joost-Klein-Netherlands-Eurovision-Song-Contest-2024-1024x853.jpg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Joost"}</strong></p>
+            <p className="subtext">{"Entire Discography • Rap, Gabber (In Dutch)"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://e.snmc.io/i/1200/s/d2e00fe913e472f4b9444455752621c2/7992637"></img>
           <div>
             <p className="text-2xl"><strong>{"languid.oceans"}</strong></p>
@@ -40,7 +56,15 @@ export default function rap() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://www.okayplayer.com/wp-content/uploads/2022/08/GettyImages-1410771982.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://global-uploads.webflow.com/62158cc7e1cd8f0ec3729390/63ee7b83601bd0b38de30e98_makko-SWd1f.jpeg"></img>
+          <div>
+            <p className="text-2xl"><strong>{"makko"}</strong></p>
+            <p className="subtext">{"Entire Discography • Chill Rap, Emo Rap (In German)"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.okayplayer.com/wp-content/uploads/2022/08/GettyImages-1410771982.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Kendrick Lamar"}</strong></p>
             <p className="subtext">{"Entire Discography"}</p>

@@ -16,7 +16,7 @@ export default function transition() {
         <h1 className="text-5xl pb-5"><strong>🎤 Artists I love</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://i.scdn.co/image/ab6761610000517469eea22d7189af21794f3043"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://i.scdn.co/image/ab6761610000517469eea22d7189af21794f3043"></img>
           <div>
             <p className="text-2xl"><strong>{"Fred again.."}</strong></p>
             <p className="subtext">{"🏴󠁧󠁢󠁥󠁮󠁧󠁿 EDM, Future Garage"}</p>
@@ -24,7 +24,7 @@ export default function transition() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://i.scdn.co/image/ab676161000051746e9247ebb1bd90c23fb776fc"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://i.scdn.co/image/ab676161000051746e9247ebb1bd90c23fb776fc"></img>
           <div>
             <p className="text-2xl"><strong>{"Sigur Rós"}</strong></p>
             <p className="subtext">{"🇮🇸 Skel, Glóð"}</p>
@@ -32,7 +32,7 @@ export default function transition() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://i.scdn.co/image/ab676161000051748f6940db1be81bf5bbf79ca1"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://i.scdn.co/image/ab676161000051748f6940db1be81bf5bbf79ca1"></img>
           <div>
             <p className="text-2xl"><strong>{"Stumbleine"}</strong></p>
             <p className="subtext">{"🏴󠁧󠁢󠁥󠁮󠁧󠁿 Abacus, Will They"}</p>

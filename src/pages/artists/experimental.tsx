@@ -8,7 +8,7 @@ export default function experimental() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🎤</title>
+        <title>Experimental</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
@@ -16,7 +16,7 @@ export default function experimental() {
         <h1 className="text-5xl pb-5"><strong>🎛️ Experimental</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://www.artribune.com/wp-content/uploads/2023/07/Duo-LEYA.-Photo-Jane-Chardiet-2.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.artribune.com/wp-content/uploads/2023/07/Duo-LEYA.-Photo-Jane-Chardiet-2.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"LEYA"}</strong></p>
             <p className="subtext">{"Entire Discography • Adjacent to Industrial, Orchestral, Experimental"}</p>
@@ -24,7 +24,7 @@ export default function experimental() {
         </div>
         
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://i.scdn.co/image/f118fe5c548a819d3a54fdd8e29b7df71ddb13f8"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://i.scdn.co/image/f118fe5c548a819d3a54fdd8e29b7df71ddb13f8"></img>
           <div>
             <p className="text-2xl"><strong>{"Swans"}</strong></p>
             <p className="subtext">{"Entire Discography • Experimental Rock"}</p>
@@ -32,7 +32,7 @@ export default function experimental() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="http://indigits.net/wp-content/uploads/2012/07/Sun-Glitters-Interview.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="http://indigits.net/wp-content/uploads/2012/07/Sun-Glitters-Interview.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Sun Glitters"}</strong></p>
             <p className="subtext">{"Entire Discography • Experimental Adjacent to Chillstep"}</p>

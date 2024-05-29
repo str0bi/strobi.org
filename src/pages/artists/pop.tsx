@@ -8,7 +8,7 @@ export default function pop() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🎤</title>
+        <title>Pop</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
@@ -16,7 +16,7 @@ export default function pop() {
         <h1 className="text-5xl pb-5"><strong>🎙️ Rap & Hip Hop</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://dailychiefers.com/wp-content/media/2021/03/glaive-cypress-grove-gen-f-interview.jpeg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://dailychiefers.com/wp-content/media/2021/03/glaive-cypress-grove-gen-f-interview.jpeg"></img>
           <div>
             <p className="text-2xl"><strong>{"glaive"}</strong></p>
             <p className="subtext">{"Entire Discography • Hyperpop"}</p>
@@ -40,7 +40,7 @@ export default function pop() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover -z-50" src="https://yt3.googleusercontent.com/4Ai_zpOMVYZgX5FcQTxx5O6u1PM29I_DaP6WKc_BA9yqNgc8kEAXfcPzeHwdDdStuy39b87vtw=s900-c-k-c0x00ffffff-no-rj"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://yt3.googleusercontent.com/4Ai_zpOMVYZgX5FcQTxx5O6u1PM29I_DaP6WKc_BA9yqNgc8kEAXfcPzeHwdDdStuy39b87vtw=s900-c-k-c0x00ffffff-no-rj"></img>
           <div>
             <p className="text-2xl"><strong>{"brakence"}</strong></p>
             <p className="subtext">{"Entire Discography • Hyperpop heavily adjacent to Math Rock & Glitchpop"}</p>
@@ -56,10 +56,10 @@ export default function pop() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://shorefire.com/images/uploads/client/LILLIEEIGER-MURAMASA-1.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.famousbirthdays.com/headshots/aron-can-8.jpg"></img>
           <div>
-            <p className="text-2xl"><strong>{"Mura Masa"}</strong></p>
-            <p className="subtext">{"Entire Discography • Pop Adjacent to Hip Hop, Indie Rock & EDM"}</p>
+            <p className="text-2xl"><strong>{"Aron Can"}</strong></p>
+            <p className="subtext">{"Entire Discography • Icelandic Pop Adjacent to Hip Hop & EDM"}</p>
           </div>
         </div>
         

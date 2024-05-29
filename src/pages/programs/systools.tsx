@@ -8,13 +8,13 @@ export default function systools() {
       <Head>
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>🛜</title>
+        <title>System Tools & Essential Software</title>
         <link rel="icon" href="/images/favicon2.png" />
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
 
         <p className="pb-5 text-[15px]"><Link className="no-underline" href="/programs">{"⬅ Back to Programs"}</Link></p>
-        <h1 className="text-5xl"><strong>🛜 Network, Privacy & Security, System Tools, Essential Software</strong></h1>
+        <h1 className="text-5xl"><strong>🛜 System Tools & Essential Software</strong></h1>
 
         <p className="text-2xl pt-8"><strong><Link href="https://librewolf.net/">LibreWolf</Link></strong></p>
         <p className="subtext">A fork of Firefox with a bunch of privacy enhancements and much prettier without losing features from the foxy.</p>
