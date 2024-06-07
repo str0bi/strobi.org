@@ -25,7 +25,7 @@ export default function links() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/link icons/spacehey.png"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/link icons/SpaceHey.png"></img>
           <div>
             <p className="text-2xl"><strong><Link href="https://spacehey.com/dotlua">SpaceHey</Link></strong></p>
             <p className="subtext">{"@dotlua"}</p>
