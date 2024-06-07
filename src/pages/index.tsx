@@ -45,7 +45,7 @@ export default function Home() {
 
         <h2 className="text-3xl mt-12"><strong>👋 Bio</strong></h2>
         <ul className="list-none pb-12 m-0 leading-5">
-          <li>{"I'm Max! You'll hear people around me also call me Sofie."}</li>
+          <li>{"I'm Iris! You'll hear people around me also call me Sofie."}</li>
           <li className="flex gap-1 items-center">{"I use"} <strong>They/Them</strong> {"or"} <strong>She/Her</strong> {"pronouns!"} <img className="align-middle h-4" src="./enbyflag.png"></img></li>
           <li className="flex gap-1 items-center">{"I am asexual (sex-positive), and poly."} <img className="align-middle h-4" src="https://cdn.discordapp.com/emojis/1175641289874755645.webp?size=96&quality=lossless"></img></li>
           <li>{"I have alexithymia, visual snow and aphantasia, all due to my autism I'd guess. I don't have any trauma however, so it's okay to ask about any of these!"}</li>

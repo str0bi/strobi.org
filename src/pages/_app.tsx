@@ -17,7 +17,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
            
            
             
-          Inspired by Windows 9x. Font: <Link className="subtext" href="https://arnesava.github.io/w95font/">W95FA</Link>. 2024 Max Jónsbur. <Link className="subtext" href="https://github.com/str0bi/strobi.org">Source Code</Link>
+          Inspired by Windows 9x. Font: <Link className="subtext" href="https://arnesava.github.io/w95font/">W95FA</Link>. 2024 Iris Jónsbur. Using Tailwind CSS & HTML: <Link className="subtext" href="https://github.com/str0bi/strobi.org">Source Code</Link>
         </p>
       </div>
     </>
