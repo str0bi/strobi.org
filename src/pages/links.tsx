@@ -16,7 +16,7 @@ export default function links() {
         <p className="pb-5 text-[15px]"><Link className="no-underline" href="/">{"⬅ Back to Home"}</Link></p>
         <h1 className="text-5xl pb-5"><strong>🌐 My Links</strong></h1>
 
-        <p className="text-2xl"><strong>I'm most active in:</strong></p>
+        <p className="text-2xl"><strong>Most active in:</strong></p>
 
         <div className="flex items-center gap-5  pb-2 pt-5 hover:p-6 ease-out duration-1000">
           <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/link icons/aoty.png"></img>
