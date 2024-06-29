@@ -13,9 +13,8 @@ export default function Home() {
       <main className=" px-12 pt-[80px] font-W95font cursor-default">
         <h1 className="text-5xl flex justify-center animate-bounce"><strong>🍓 strobi</strong></h1>
         
-          <p className="subtext flex justify-center gap-1">{"Current Favorite Song:"}</p>
-          <p className="subtext flex justify-center gap-1"><Link href="https://open.spotify.com/playlist/5AHdgtb9mzsKdIr9vE0j3G?si=814cc2120f6e4946">Fred again.. - Tanya (maybe life)</Link></p>
-
+          <p className="subtext flex justify-center gap-1">{"Favorite song:"}</p>
+          <p className="subtext flex justify-center gap-1"><Link href="https://open.spotify.com/playlist/5AHdgtb9mzsKdIr9vE0j3G?si=814cc2120f6e4946">Fred again.., Romy, HAAi - Lights Out</Link></p>          
 
         <h2 className="text-3xl mt-12"><strong>✨ Latest Label Releases</strong></h2>
         
