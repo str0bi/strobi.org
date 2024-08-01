@@ -365,28 +365,28 @@ export default function games() {
         <p className="text-2xl py-4"><strong>E Tier</strong></p>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/E.png"></img>
           <div>
             <p className="text-2xl"><strong>{"Dying Light"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/E.png"></img>
           <div>
             <p className="text-2xl"><strong>{"Stardew Valley"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/E.png"></img>
           <div>
             <p className="text-2xl"><strong>{"Road 96: Mile 0"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/E.png"></img>
           <div>
             <p className="text-2xl"><strong>{"Ghostrunner 2"}</strong></p>
           </div>
