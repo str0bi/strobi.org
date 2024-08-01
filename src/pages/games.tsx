@@ -13,161 +13,387 @@ export default function games() {
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
       <p className="pb-5 text-[15px]"><Link className="no-underline" href="/">{"⬅ Back to Home"}</Link></p>
-        <h1 className="text-5xl pb-5"><strong>🎮 Games I Love</strong></h1>
+        <h1 className="text-5xl pb-5"><strong>🎮 My Game Tier List</strong></h1>
+
+        <p className="text-2xl py-4"><strong>S Tier</strong></p>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/the quarry.png"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
           <div>
+            <p className="text-2xl"><strong>{"Ghost Recon Breakpoint"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Minecraft"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
             <p className="text-2xl"><strong>{"The Quarry"}</strong></p>
-            <p className="subtext">{"Singleplayer, Horror, Interactive Movie"}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/detroit become human.png"></img>
-          <div>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
             <p className="text-2xl"><strong>{"Detroit: Become Human"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Adventure"}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/mirror's edge catalyst.png"></img>
-          <div>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
             <p className="text-2xl"><strong>{"Mirror's Edge: Catalyst"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, First-Person Parkour"}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/far cry 5.png"></img>
-          <div>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Animal Crossing: New Horizons"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
             <p className="text-2xl"><strong>{"Far Cry 5"}</strong></p>
-            <p className="subtext">{"Single/Multiplayer, Action, FPS"}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/cyberpunk 2077.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Cyberpunk 2077"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, RPG"}</p>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Far Cry New Dawn"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/bonelab.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"BONELAB & BONEWORKS"}</strong></p>
-            <p className="subtext">{"Singleplayer (Multiplayer Mods), Action, VR FPS/Sandbox"}</p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/control.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Control"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Adventure"}</p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/life is strange.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Life is Strange Franchise & Tell Me Why"}</strong></p>
-            <p className="subtext">{"Singleplayer, Adventure, Linear Story"}</p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/spiderman.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Spider-Man 1 & Miles Morales"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Adventure"}</p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/horizon zero dawn.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Horizon Zero Dawn"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, RPG"}</p>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Far Cry Primal"}</strong></p>
           </div>
         </div>
         
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/portal.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Portal Franchise"}</strong></p>
-            <p className="subtext">{"Single/Multiplayer (2), Puzzle, Platformer"}</p>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Control"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/solar ash.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Solar Ash"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Platformer"}</p>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Life is Strange Franchise & Tell Me Why"}</strong></p>
+          </div>
+        </div>
+        
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Life is Strange: Before the Storm"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/immortality.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"IMMORTALITY"}</strong></p>
-            <p className="subtext">{"Singleplayer, Mystery, 3 Interactive Movies"}</p>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Life is Strange 2"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/watch dogs 2.png"></img>
-          <div>
-            <p className="text-2xl"><strong>{"Watch_Dogs 2"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Adventure"}</p>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Life is Strange: True Colors"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/steep.png"></img>
-          <div>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Tell Me Why"}</strong></p>
+          </div>
+        </div>
+        
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Horizon Zero Dawn"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
             <p className="text-2xl"><strong>{"Steep"}</strong></p>
-            <p className="subtext">{"Single/Multiplayer, Action, Sports"}</p>
+          </div>
+        </div>
+        
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Portal"}</strong></p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/naissancee.png"></img>
-          <div>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Portal 2"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Solar Ash"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Watch_Dogs 2"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"IMMORTALITY"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
             <p className="text-2xl"><strong>{"NaissanceE"}</strong></p>
-            <p className="subtext">{"Singleplayer, Atmosphere, Exploration"}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/death stranding.png"></img>
-          <div>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/S.png"></img>
+        <div>
+            <p className="text-2xl"><strong>{"Road 96"}</strong></p>
+          </div>
+        </div>
+
+        <p className="text-2xl py-4"><strong>A Tier</strong></p>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+        <div>
             <p className="text-2xl"><strong>{"Death Stranding"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Adventure"}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/heavy rain.png"></img>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
           <div>
             <p className="text-2xl"><strong>{"Heavy Rain"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Linear Story"}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/gta v.png"></img>
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Cyberpunk 2077"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Sable"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Ghostrunner"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Marvel's Spider-Man"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Marvel's Spider-Man: Miles Morales"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
           <div>
             <p className="text-2xl"><strong>{"GTA V"}</strong></p>
-            <p className="subtext">{"Singleplayer, Action, Adventure"}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"BONEWORKS"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"BONELAB"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Dying Light 2"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Horizon Forbidden West"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/A.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Uncharted 4: A Thief's End"}</strong></p>
+          </div>
+        </div>
+
+        <p className="text-2xl py-4"><strong>B Tier</strong></p>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/B.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Rooftops & Alleys"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/B.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"The First Tree"}</strong></p>
+          </div>
+        </div>
+
+        <p className="text-2xl py-4"><strong>C Tier</strong></p>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/C.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Ghost Recon Wildlands"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/C.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"The Complex: Expedition"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/C.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Kitten Burst"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/C.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Quantum Break"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/C.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Ghost on the Shore"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/C.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"My Summer Car"}</strong></p>
           </div>
         </div>
         
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/C.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"The Last of Us"}</strong></p>
+          </div>
+        </div>
 
+        <p className="text-2xl py-4"><strong>D Tier</strong></p>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"God of War"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"The Witcher 3: Wild Hunt"}</strong></p>
+          </div>
+        </div>
+
+        <p className="text-2xl py-4"><strong>E Tier</strong></p>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Dying Light"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Stardew Valley"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Road 96: Mile 0"}</strong></p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
+        <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./images/game icons/D.png"></img>
+          <div>
+            <p className="text-2xl"><strong>{"Ghostrunner 2"}</strong></p>
+          </div>
+        </div>
+
+        <p className="text-2xl py-4"><strong>F Tier</strong></p>
+        
       </main>     
     </>
   )
