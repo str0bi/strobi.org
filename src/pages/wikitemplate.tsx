@@ -31,14 +31,12 @@ export default function WikiTemplate() {
               <h2 className="text-xl font-semibold mb-3">Navigation</h2>
               <ul className="space-y-2">
                 <li>
-                  <a href="/" className="text-blue-600 hover:underline">
-                    {'Home (strobi.org)'}
-                  </a>
+                  <Link className="text-blue-600 hover:underline" href="/">{'Home (strobi.org)'}</Link>
                 </li>
                 <li>
-                  <a href="#" className="text-blue-600 hover:underline">
+                  <Link href="#" className="text-blue-600 hover:underline">
                     {'Lunar Light Point (Not so fast buddy way too early)'}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -10,7 +10,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         <div className="p-2 bg-[#02007F] flex justify-between fixed w-full z-50">
             <span className=" text-white"><Link className="text-white no-underline" href="/">🍓 strobi</Link></span>
             <div className="flex gap-1"> 
-              <a href="/wikitemplate"><img className=" h-6" src="/w.png" /></a> 
+              <Link href="/wikitemplate"><img className=" h-6" src="/w.png" /></Link> 
             <img className=" h-6" src="/x.png" />
             </div>
         </div>
