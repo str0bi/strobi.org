@@ -144,7 +144,7 @@ export default function electronic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://e.snmc.io/i/1200/s/d678286d44505a22d74a644f1843115b/10486022"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://www.visir.is/i/4148D9D670777AE5F969AFAC4EE332CB782D584C64768D31C645BDB4E6989666_713x0.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"gugusar"}</strong></p>
             <p className="subtext">{"Entire Discography • Experimental EDM (In English & Icelandic)"}</p>

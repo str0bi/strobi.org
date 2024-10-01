@@ -48,7 +48,7 @@ export default function rap() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://e.snmc.io/i/1200/s/d2e00fe913e472f4b9444455752621c2/7992637"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://tse2.mm.bing.net/th?id=OIP.PyXbnobpDkvtZAkzIY7-YAHaHa&pid=Api"></img>
           <div>
             <p className="text-2xl"><strong>{"languid.oceans"}</strong></p>
             <p className="subtext">{"Entire Discography • Minimal, Experimental"}</p>

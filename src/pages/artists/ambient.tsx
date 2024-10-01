@@ -80,7 +80,7 @@ export default function ambient() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="http://www.amuletsmusic.com/img/amulets.png"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://musicandriots.com/wp-content/uploads/2021/01/80ww_unnamed-36.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"Amulets"}</strong></p>
             <p className="subtext">{"Entire Discography • Ambient, Tape Loops, Adjacent to Noise"}</p>

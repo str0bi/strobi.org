@@ -17,7 +17,10 @@ export default function music() {
         <h1 className="text-5xl"><strong>🎛️ Music & Sound Design</strong></h1>
 
         <p className="text-2xl pt-8"><strong><Link href="https://www.bitwig.com/">Bitwig Studio</Link></strong></p>
-        <p className="subtext">Better and more affortable DAW. Replaces Ableton easily, made by former Ableton employees and private.</p>
+        <p className="subtext">My DAW of choice. Replaces Ableton easily, made by former Ableton employees and private.</p>
+
+        <p className="text-2xl"><strong><Link href="https://midinous.com/">Midinous</Link></strong></p>
+        <p className="subtext">A MIDI Non-sequencer. Make your head explode with a grid based DAW.</p>
 
         <p className="text-2xl"><strong><Link href="https://tytel.org/helm/">Helm</Link></strong></p>
         <p className="subtext">Free and powerful Serum alternative. My main synth plugin for designing sounds.</p>
@@ -32,7 +35,7 @@ export default function music() {
         <p className="subtext">A world map with a ton of radio stations to listen to, an amazing resource for language learning aswell as a unique way to find new music from around the world.</p>
 
         <p className="text-2xl"><strong><Link href="https://play.google.com/store/apps/details?id=com.kyant.vanilla">Vanilla</Link></strong></p>
-        <p className="subtext">Came across this <Link href="../meow.html">music</Link> player app when looking for a way to play MIDI, it is ADORABLE but still in beta.</p>
+        <p className="subtext">Came across this music player app when looking for a way to play MIDI, it is ADORABLE but still in beta.</p>
 
         <p className="text-2xl"><strong><Link href="https://bendodson.com/projects/itunes-artwork-finder/">BenDodson iTunes Artwork Finder</Link></strong></p>
         <p className="subtext">{"The best way to get your grubby hands on albums', tv shows', etc. cover art."}</p>

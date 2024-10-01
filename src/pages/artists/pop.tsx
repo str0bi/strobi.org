@@ -13,10 +13,10 @@ export default function pop() {
       </Head>
       <main className="px-12 pt-[80px] cursor-default">
         <p className="pb-5 text-[15px]"><Link className="no-underline" href="/artists">{"⬅ Back to Artists"}</Link></p>
-        <h1 className="text-5xl pb-5"><strong>🎙️ Rap & Hip Hop</strong></h1>
+        <h1 className="text-5xl pb-5"><strong>🎙️ Pop</strong></h1>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://dailychiefers.com/wp-content/media/2021/03/glaive-cypress-grove-gen-f-interview.jpeg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://uploads-ssl.webflow.com/600764b039279f159ae570ef/62c4dbaea9a9e2df0d577caa_glaive%20Superstar%20Sheesh%20Media%20Kid%20Laroi%20.jpg"></img>
           <div>
             <p className="text-2xl"><strong>{"glaive"}</strong></p>
             <p className="subtext">{"Entire Discography • Hyperpop"}</p>

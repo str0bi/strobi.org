@@ -24,7 +24,7 @@ export default function acoustic() {
         </div>
 
         <div className="flex items-center gap-5 py-2 hover:p-6 ease-out duration-1000">
-          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="http://tanakamusic.com/wp-content/uploads/2011/09/sigur-ros.jpg"></img>
+          <img className=" h-[55px] w-[55px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2024/09/29/IMG3845.jpg?VersionId=QZ66EaUUT.AKgciKmVgdkJYV.Xnek.je"></img>
           <div>
             <p className="text-2xl"><strong>{"Sigur Rós"}</strong></p>
             <p className="subtext">{"Entire Discography • Icelandic Post-Rock, Adjacent to Orchestral"}</p>

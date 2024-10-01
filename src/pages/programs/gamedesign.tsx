@@ -27,6 +27,9 @@ export default function gamedesign() {
 
         <p className="text-2xl"><strong><Link href="https://wickedengine.net/">Wicked Engine</Link></strong></p>
         <p className="subtext">Also check this engine out, it is definitely something. Not hard to use and looks really nice.</p>
+
+        <p className="text-2xl"><strong><Link href="https://github.com/shdwmtr/millennium">Millenium</Link></strong></p>
+        <p className="subtext">Modern Steam skinner!</p>
       </main>
     </>
   )

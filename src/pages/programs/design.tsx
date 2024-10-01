@@ -17,7 +17,7 @@ export default function design() {
         <h1 className="text-5xl"><strong>🎨 Art & Graphic Design</strong></h1>
         
         <p className="text-2xl pt-8"><strong><Link href="https://www.figma.com/">Figma</Link></strong></p>
-        <p className="subtext">Industry leading design program. Prototype apps and websites smoothly and transform them into actual code instantly.</p>
+        <p className="subtext">Industry leading design program. Prototype apps and websites smoothly and now turn them into code if you pay (fuck you Adobe you monopolistic purchase monkeys).</p>
 
         <p className="text-2xl"><strong><Link href="https://krita.org/en/">Krita</Link></strong></p>
         <p className="subtext">Free program for drawing stuff. All my scribbler friends use it and love it, and we use it in uni!</p>
@@ -26,7 +26,13 @@ export default function design() {
         <p className="subtext">FOSS pixel art program with all the bells and whistles.</p>
 
         <p className="text-2xl"><strong><Link href="https://www.gimp.org/">GIMP</Link></strong></p>
-        <p className="subtext">Free alternative to Photoshop, perfectly as capable but without bloat or crashes.</p>   
+        <p className="subtext">Free alternative to Photoshop, lacks some capability but works wonders for its great price of 0 buckaroonies.</p>   
+
+        <p className="text-2xl"><strong><Link href="https://affinity.serif.com/">Affinity Suite</Link></strong></p>
+        <p className="subtext">Single payment alternative to Photoshop, InDesign and Illustrator, perfectly as capable but without bloat or AI slop.</p> 
+
+        <p className="text-2xl"><strong><Link href="https://kdenlive.org/">Kdenlive</Link></strong></p>
+        <p className="subtext">My video editor of choice. Totally free and open source, and has all you need for a normal video with no AI garbage they do nowadays.</p>   
       </main>
     </>
   )

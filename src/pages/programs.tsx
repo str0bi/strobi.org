@@ -14,7 +14,7 @@ export default function programs() {
       <main className="px-12 pt-[80px] cursor-default">
 
       <p className="pb-5 text-[15px]"><Link className="no-underline" href="/">{"⬅ Back to Home"}</Link></p>
-        <h1 className="text-5xl"><strong>💻 Neat Programs I Use</strong></h1>
+        <h1 className="text-5xl"><strong>💻 Neat Things I Use</strong></h1>
 
         <p className="text-2xl pt-8"><strong>🎛️ <Link href="/programs/music">Music & Sound Design</Link></strong></p>
         <p className="text-2xl"><strong>🎨 <Link href="/programs/design">Art & Graphic Design</Link></strong></p>

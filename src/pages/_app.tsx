@@ -7,9 +7,13 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <>
       <div className=" w-full -z-10">
-        <p className="p-2 bg-[#02007F] flex justify-between fixed w-full z-50">
-            <span className=" text-white"><Link className="text-white no-underline" href="/">🍓 strobi</Link></span> <img className=" h-6" src="/x.png"></img>
-        </p>
+        <div className="p-2 bg-[#02007F] flex justify-between fixed w-full z-50">
+            <span className=" text-white"><Link className="text-white no-underline" href="/">🍓 strobi</Link></span>
+            <div className="flex gap-1"> 
+              <a href="/wikitemplate"><img className=" h-6" src="/w.png" /></a> 
+            <img className=" h-6" src="/x.png" />
+            </div>
+        </div>
       </div>
       <Component {...pageProps} />
       <div>
