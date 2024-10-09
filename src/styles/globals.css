@@ -1,18 +1,27 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 @font-face {
     font-family: 'W95font';
     src: local('W95font'), url("/fonts/w95font.woff") format("woff");
 }
 
-@tailwind utilities;
-
-
 @layer components {
     .subtext {
         @apply text-sm italic text-[#000000]
     }
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
 }
 
 :root { 
@@ -43,4 +52,6 @@ li:not(:last-child) {
 
 body {
     background-color: #c0c0c0;
+    scrollbar-width: 0;
+    overflow-x:hidden;
 }

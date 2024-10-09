@@ -9,7 +9,12 @@ export default {
       },
       animation: {
         'bounce-slow': 'bounce 1.2s linear infinite'
-      }
+      },
+      colors: {
+        'w95': '#c0c0c0',
+        'w95blue': '#01807e',
+        'w95window': '#464646',
+      },
     },
   },
   plugins: [],

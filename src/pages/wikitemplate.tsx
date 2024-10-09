@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
+import React from "react"
 
 export default function WikiTemplate() {
     return (
@@ -13,9 +14,9 @@ export default function WikiTemplate() {
         </Head>
 
 
-      <div className="bg-gray-100 text-gray-800">
+      <div className=" text-gray-800">
         {/* Header */}
-        <header className="bg-white shadow pt-[50px]">
+        <header className="bg-white bg-opacity-10 shadow pt-[50px]">
           <div className="container mx-auto py-4 px-6">
             <div className="flex justify-between items-center">
               <h1 className="text-3xl font-bold">🍓 The Strobi Wiki (EXTREMELY EARLY ALPHA)</h1>
@@ -27,7 +28,7 @@ export default function WikiTemplate() {
         <div className="container mx-auto flex py-6 px-6">
           {/* Sidebar */}
           <aside className="w-1/4 pr-6">
-            <div className="bg-white rounded-lg shadow-md p-4">
+            <div className="bg-white bg-opacity-10 rounded-lg shadow-md p-4">
               <h2 className="text-xl font-semibold mb-3">Navigation</h2>
               <ul className="space-y-2">
                 <li>
@@ -44,7 +45,7 @@ export default function WikiTemplate() {
   
           {/* Main content */}
           <main className="w-3/4">
-            <article className="bg-white rounded-lg shadow-md p-6">
+            <article className="bg-white bg-opacity-10 rounded-lg shadow-md p-6">
               <h1 className="text-4xl font-bold mb-4">Oh God, what now?</h1>
               <p className="text-lg leading-7 mb-6">
                 This part of the website will house currently awkward lists like my games tier list, and my favorite artists.
@@ -78,7 +79,7 @@ export default function WikiTemplate() {
         </div>
   
         {/* Footer */}
-        <footer className="bg-white shadow mt-6">
+        <footer className="bg-white bg-opacity-10 shadow mt-6">
           <div className="container mx-auto py-4 px-6 text-center">
             <p className="text-sm text-gray-600">
               &copy; 2024 My Wikipedia. All rights reserved.
