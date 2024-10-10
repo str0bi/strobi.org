@@ -78,7 +78,7 @@ export default function WikiTemplate() {
           </main>
         </div>
   
-        {/* Footer */}
+        {/* Footer 
         <footer className="bg-white bg-opacity-10 shadow mt-6">
           <div className="container mx-auto py-4 px-6 text-center">
             <p className="text-sm text-gray-600">
@@ -86,6 +86,7 @@ export default function WikiTemplate() {
             </p>
           </div>
         </footer>
+        */}
       </div>
       </>
     );

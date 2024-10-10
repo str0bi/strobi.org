@@ -79,9 +79,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             <hr className='w-full border-4 border-spacing-0 border-w95blue' />
           </div>
 
-          <div className="container mx-auto py-2 text-center">
-            <p className="text-sm text-black opacity-60">
-            Inspired by Windows 9x. 2024 Iris Jónsbur. Using Tailwind CSS & HTML: <Link className="subtext" href="https://github.com/str0bi/strobi.org">Source Code</Link>
+          <div className="container ml-0 py-0 text-center flex justify-start gap-3 items-center">
+          <img className="h-6" src="/start.png" alt="Start Icon" />
+            <p className="text-sm sm:text-xs text-black opacity-60">
+            Inspired by Windows 9x. Using Tailwind CSS & HTML: <Link className="subtext" href="https://github.com/str0bi/strobi.org">Source Code</Link>
             </p>
           </div>
         </footer>
