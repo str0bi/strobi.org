@@ -14,6 +14,7 @@ export default {
         'w95': '#c0c0c0',
         'w95blue': '#01807e',
         'w95window': '#464646',
+        'sidebar': '#1c1c1c',
       },
     },
   },

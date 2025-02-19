@@ -1,0 +1,59 @@
+import React from 'react';
+
+const Wiki: React.FC = () => {
+  return (
+    <div className="flex min-h-screen bg-black text-gray-900 pt-[40px]">
+      {/* Sidebar */}
+      <aside className="w-64 bg-sidebar text-white flex-shrink-0 h-screen sticky top-0">
+        <div className="p-6 text-2xl font-semibold border-b border-gray-700">
+          Wiki Navigation
+        </div>
+        <nav className="p-6">
+          <ul>
+            <li>
+              <a href="#topic1" className="block py-2 px-4 hover:bg-gray-700 rounded">
+                Topic 1
+              </a>
+            </li>
+            <li>
+              <a href="#topic2" className="block py-2 px-4 hover:bg-gray-700 rounded">
+                Topic 2
+              </a>
+            </li>
+            <li>
+              <a href="#topic3" className="block py-2 px-4 hover:bg-gray-700 rounded">
+                Topic 3
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      {/* Main Content */}
+      <main className="flex-1 p-10">
+        <section id="topic1" className="mb-10">
+          <h1 className="text-3xl font-bold mb-4">Topic 1</h1>
+          <p className="text-lg">
+            This is where the content for Topic 1 will go. You can write explanations, examples, or any other text here.
+          </p>
+        </section>
+        
+        <section id="topic2" className="mb-10">
+          <h1 className="text-3xl font-bold mb-4">Topic 2</h1>
+          <p className="text-lg">
+            This is where the content for Topic 2 will go. Feel free to add more information as needed.
+          </p>
+        </section>
+        
+        <section id="topic3" className="mb-10">
+          <h1 className="text-3xl font-bold mb-4">Topic 3</h1>
+          <p className="text-lg">
+            This is where the content for Topic 3 will go. You can customize this text to suit your needs.
+          </p>
+        </section>
+      </main>
+    </div>
+  );
+};
+
+export default Wiki;

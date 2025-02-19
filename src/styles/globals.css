@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/*@font-face {
     font-family: 'W95font';
     src: local('W95font'), url("/fonts/w95font.woff") format("woff");
-}
+}*/
 
 @layer components {
     .subtext {
-        @apply text-sm italic text-[#000000]
+        @apply text-sm italic text-white
     }
 }
 
@@ -25,16 +25,20 @@
 }
 
 :root { 
-    --ctp-macchiato-text: #000000;
+    --ctp-macchiato-text: #FFFFFF;
     
     --ctp-macchiato-subtext0: #a5adcb;
     
     --ctp-macchiato-base: #c0c0c0;
+
+    --sidebarcolor: #1c1c1c;
 }
 
 a, p, h1, h2, li, ul {
     color: var(--ctp-macchiato-text);
-    font-family: W95FA, Arial, Helvetica, sans-serif;
+    /*font-family: Quicksand-Regular, W95FA, Arial, Helvetica, sans-serif;*/
+    /*font-family: FunnelDisplay, Arial, Helvetica, sans-serif;*/
+    font-display: "FunnelDisplay", "sans-serif";
     letter-spacing: 1px;
 }
 
@@ -51,7 +55,15 @@ li:not(:last-child) {
 }
 
 body {
-    background-color: #c0c0c0;
+    /*background: linear-gradient(135deg, #89CFF0, #B2FFFF);*/
+    /*background-color: #000000;*/
     scrollbar-width: 0;
     overflow-x:hidden;
+    background-image: url(../../public/wall.jpg);
+    background-size: cover;
+}
+
+.imagebg {
+    background-image: url(../../public/wall.jpg);
+    background-size: cover;
 }

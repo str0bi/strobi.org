@@ -34,7 +34,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
   return (
     <>
-      <div className="w-full -z-10">
+      {/*<div className="w-full -z-10">
         <div className="p-2 bg-[#02007F] flex justify-between fixed w-full z-50">
           <span className="text-white">
             <Link className="text-white no-underline" href="/">🍓 strobi.org</Link>
@@ -48,22 +48,21 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             <img className="h-6" src="/x.png" alt="X Icon" />
           </div>
         </div>
-      </div>
+      </div>*/}
 
       <AnimatePresence mode="wait">
         <motion.div
           key={router.route}
-          initial={{ opacity: 0, y: 20 }}  // Slightly translate down on enter
+          initial={{ opacity: 0, y: -20 }}  // Slightly translate down on enter
           animate={{ opacity: 1, y: 0 }}    // Move to original position
-          exit={{ opacity: 0, y: -20 }}      // Slightly translate up on exit
+          exit={{ opacity: 0, y: 20 }}      // Slightly translate up on exit
           transition={{ duration: 0.5 }}
-          className="flex-grow pb-20"
         >
           <Component {...pageProps} />
         </motion.div>
       </AnimatePresence>
 
-      <div>
+      {/*<div>
 
         <footer className="bg-w95 shadow w-full fixed bottom-0 left-0 right-0">
 
@@ -87,7 +86,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           </div>
         </footer>
         
-      </div>
+      </div>*/}
     </>
   );
 };

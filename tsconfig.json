@@ -37,6 +37,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-  ],
+, "src/pages/artists/transition.tsx.disabled", "src/pages/artists/rap.tsx.disabled", "src/pages/artists/pop.tsx.disabled", "src/pages/artists/garage.tsx.disabled", "src/pages/artists/experimental.tsx.disabled", "src/pages/artists/electronic.tsx.disabled", "src/pages/artists/ambient.tsx.disabled", "src/pages/artists/acoustic.tsx.disabled", "src/pages/programs/systools.tsx.disabled", "src/pages/programs/music.tsx.disabled", "src/pages/programs/misc.tsx.disabled", "src/pages/programs/gamedesign.tsx.disabled", "src/pages/programs/design.tsx.disabled", "src/pages/artists.tsx.disabled", "src/pages/games.tsx.disabled", "src/pages/links.tsx.disabled", "src/pages/music.tsx.disabled", "src/pages/programs.tsx.disabled", "src/pages/wikitemplate.tsx.disabled", "src/pages/wikitest1.tsx.disabled"  ],
   "exclude": ["node_modules"]
 }
