@@ -18,15 +18,15 @@ export default function Home() {
           <div className="flex items-center justify-center">
 
           <div><Link href="https://www.albumoftheyear.org/user/dotlua/">
-            <img className=" h-[250px] w-[250px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./smgirniatu mcsy.png"></img></Link>
+            <img className=" h-[250px] w-[250px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./aoty.png"></img></Link>
           </div>
 
           <div><Link href="https://backloggd.com/u/strobi/">
-            <img className=" h-[250px] w-[250px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./ts egmia rnygam.png"></img></Link>
+            <img className=" h-[250px] w-[250px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./backlog.png"></img></Link>
           </div>
 
           <div><Link href="/musicimake">
-            <img className=" h-[250px] w-[250px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./euammki isc.png"></img></Link>
+            <img className=" h-[250px] w-[250px] object-cover scale-90 hover:scale-100 ease-out duration-1000" src="./music.png"></img></Link>
           </div>
 
           </div>
